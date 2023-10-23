@@ -1,0 +1,84 @@
+html{
+   scroll-behavior: smooth;
+}
+body{
+     background-color: black;
+     margin: 0px;
+     
+   }
+
+nav{
+   display: flex;
+    justify-content: space-between ;
+   align-items: center;
+ 
+}
+
+nav ul li {
+   display: inline-block;
+    margin: 10px 50px;
+    
+}
+
+nav ul li a {
+   text-decoration: none;
+    color: rgba(92, 91, 91, 0.596);
+   font-size: 25px;
+}
+
+nav ul li a:hover {
+   color: white;
+  
+}
+
+h1{
+   color: rgba(92, 91, 91, 0.596);
+    font-size: 80px;   
+    padding: 50px ;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+h1:hover{
+    color: rgb(122, 71, 122);
+}
+
+.about{
+  font-size: 35px;
+    color:black;
+     background-color: white;
+    font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.about:hover{ 
+   color: rgb(122, 71, 122);
+}
+
+#ourstores{
+   font-size: 35px;
+    color: black;
+   background-color: white;
+    font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+#ourstores:hover{ color: rgb(122, 71, 122);
+
+}
+#Contact{color: rgba(92, 91, 91, 0.596);
+   font-size: 35px;   
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#Contact:hover{ color: rgb(122, 71, 122);}
+
+button{
+   width: 200px;
+   height:35px;
+  font-size: 18px;
+  
+}
+button:hover{
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+}
